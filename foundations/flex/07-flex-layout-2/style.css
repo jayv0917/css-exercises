@@ -62,7 +62,6 @@ a {
 .card-container{
   display: flex;
   gap: 15px;
-  margin-left: auto;
   flex-wrap: wrap;
   padding: 48px;
   flex-shrink: 1;
