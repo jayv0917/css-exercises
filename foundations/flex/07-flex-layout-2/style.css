@@ -7,15 +7,23 @@ body {
 }
 
 .header {
+  display: flex;
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  align-items: center;
+  padding-left: 16px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -33,6 +41,8 @@ body {
   border-radius: 4px;
   padding: 48px;
   width: 40vh;
+  flex-shrink: 1;
+  flex-wrap: wrap;
 }
 
 ul {
@@ -56,4 +66,5 @@ a {
   margin-left: auto;
   flex-wrap: wrap;
   padding: 48px;
+  
 }
